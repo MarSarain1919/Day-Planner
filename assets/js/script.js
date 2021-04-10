@@ -114,6 +114,7 @@ $(document).ready(function() {
       $saveBtn.attr('id',`saveid-${index}`);
       $saveBtn.attr('save-id',index);
       $saveBtn.attr('class',"saveIcon");
+      $saveBtn.text("Save");
       
       // add col width and row component to row
       $rowDiv.append($col1SaveDiv);
@@ -138,7 +139,7 @@ $(document).ready(function() {
         $hourRow.css("background-color","lightgrey")
       } else if ( hour > nowHour24) {
         if (test) { console.log("greaterthan"); }
-        $hourRow.css("background-color","green")
+        $hourRow.css("background-color","limegreen")
       } else {
         if (test) { console.log("eqaul"); }
         $hourRow.css("background-color","red")
