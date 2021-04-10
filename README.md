@@ -29,3 +29,10 @@ THEN the saved events persist
 ```
 
 I used jquery in combination with HTML and CSS to create a dynamic and interactive scheduler. It actively keeps track of the time throughout the workday and saves inputs to the local storage.
+
+Live page: https://marsarain1919.github.io/Day-Planner/
+Github Repo: https://github.com/MarSarain1919/Day-Planner
+Screenshot: ![Getting Started](./img/screenshot.png)
+
+
+
