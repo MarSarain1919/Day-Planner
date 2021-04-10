@@ -139,7 +139,7 @@ $(document).ready(function() {
         $hourRow.css("background-color","lightgrey")
       } else if ( hour > nowHour24) {
         if (test) { console.log("greaterthan"); }
-        $hourRow.css("background-color","limegreen")
+        $hourRow.css("background-color","lightgreen")
       } else {
         if (test) { console.log("eqaul"); }
         $hourRow.css("background-color","red")
